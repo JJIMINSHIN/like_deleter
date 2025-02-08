@@ -1,13 +1,12 @@
 # 자동 좋아요/좋아요 취소 스크립트
 
-친구의 요청으로 제작된 JavaScript 스크립트입니다.
+친구의 요청으로 제작된 JavaScript 스크립트입니다. :)  <br>
 이 스크립트를 사용하면 특정 웹사이트에서 자동으로 좋아요를 누르거나 취소할 수 있습니다.
 
 ## 사용 방법
 
-F12를 눌러 개발자 도구를 열고 Console 탭으로 이동하세요.
-
-원하는 스크립트를 복사한 후 콘솔 창에 붙여넣고 실행하세요.
+> F12를 눌러 개발자 도구를 열고 Console 탭으로 이동하세요.
+> 원하는 스크립트를 복사한 후 콘솔 창에 붙여넣고 실행하세요.
 
 ## 🔻 좋아요 취소 스크립트
 
@@ -22,7 +21,7 @@ const intervalId = setInterval(() => {
         cnt++;
     }
     window.scrollTo(0, document.body.scrollHeight);
-}, 1000);
+}, 2000);
 
 setTimeout(() => {
     clearInterval(intervalId); // setInterval 중지
@@ -43,7 +42,7 @@ const intervalId = setInterval(() => {
         cnt++;
     }
     window.scrollTo(0, document.body.scrollHeight);
-}, 1000);
+}, 2000);
 
 setTimeout(() => {
     clearInterval(intervalId); // setInterval 중지
