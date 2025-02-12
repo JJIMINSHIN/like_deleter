@@ -31,8 +31,9 @@ setTimeout(() => {
 ```
 
 ## 🔻 좋아요 누르기 스크립트
-``` javascript
 아래 스크립트를 실행하면 20초 동안 자동으로 좋아요를 누릅니다.
+
+``` javascript
 
 let cnt = 0;
 
